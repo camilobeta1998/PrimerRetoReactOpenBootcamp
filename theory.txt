@@ -1,0 +1,38 @@
+React Bootcamp - Intermedio
+
+La carpeta de components se debera dividir de la siguiente forma, se crearan las siguientes carpetas siempre en la realizacion de un proyecto: 
+       1- Pure : Son componentes con poca o nula logica
+
+       2- container : Son los componentes de orden superior, estos se encargarán de renderizar componentes de menor orden,
+       los componentes de tipo contenedor son los que tendran la logica.
+
+       3- Hooks: Dentro de hooks crearemos nuestros propios hooks
+
+       4- Routes: Aqui iran las rutas de nuestro proyecto
+
+       5- pages:  
+
+       6- Models: Especificar los tipos de datos con los que vamos a trabajar
+
+
+
+       Dentro de la carpeta models, tendremos:
+               - task.class.js => esto es en resumidas cuantas crear una cuenta con la informacion de la tareas, es como un molde para la 
+               creacion de nuevos objetos
+               - level.enum.js => aqui iran los niveles de urgencia de la tarea
+
+        Dentro de la Carpeta Container tendremos:
+
+               - TaskList.jsx => que sera la lista de tareas, esta sera renderizada por App
+
+        Dentro de la carpeta Pue tendremos:
+
+                - Task.jsx => Que sera la lista particular, o sea la lista particular en si.
+
+
+------------------------------------------------------Operadores Ternarios--------------------------------------------------------------------
+
+condicion ?  Se hara lo que sea siempre y cuando sea verdadera : se hara lo que sea siempre y cuando la condicion no se cumpla
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
